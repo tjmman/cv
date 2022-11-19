@@ -2,6 +2,7 @@ body {
   background: #b7d7d82d;
   font-family: 'Courier New', Courier, monospace;
   overflow: auto;
+  
 }
 .henkilotiedot {
     position: relative;
