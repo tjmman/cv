@@ -1,27 +1,37 @@
 body {
   background: #b7d7d82d;
   font-family: 'Courier New', Courier, monospace;
+  overflow: auto;
 }
 .henkilotiedot {
     position: relative;
-    width: 25vw;
+    width: 250px;
     height:100vh;
     border-radius:  1em;
     background: scroll;
     background-color: rgba(127, 255, 212, 0.363);
 }
+
+.kokosivu {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  line-height: 1.5;
+  align-items: left;
+}
+
 .osaaminen {
   position: relative;
-  left: 40vw
-}
-h1 {
-  position: relative;
-  left: 20vw
+  max-width: 600px;
+  left: 4em;
+  top: 40px;
+  word-wrap: break-word;
+  margin-right: 4em;
+  padding-right: 4em;
 }
 
 .kuva {
-  position: relative;
-  left: 2.3vw;
+  position:relative;
+  left: 22px;
   top: 2em;
   border-radius: 1em;
   width: 80%;
@@ -30,7 +40,10 @@ h1 {
 }
 
 .yhteystiedot {
+  word-wrap: break-word;
   position: relative;
   top: 3em;
-  left: 2em
+  left: 1em;
+  width: 200px;
+  
 }
